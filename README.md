@@ -18,10 +18,13 @@ python main.py
 
 ```bash
 git -- version
+```
 
-### To download data
+To download dataset
 
----bash
-wget
+```bash
+link
+```
+
 
 
