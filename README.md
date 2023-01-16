@@ -20,7 +20,7 @@ git -- version
 To download dataset
 
 ```
-wget https://raw.githubusercontent.com/avnyadav/sensor-fault-detection/main/aps_failure_training_set1.csv
+wget https://raw.githubusercontent.com/Sunita778/aps-fault-detection/main/aps_failure_training_set1.csv
 ```
 
 ## Git commands
