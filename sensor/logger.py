@@ -19,3 +19,4 @@ logging.basicConfig(
     format="[%(asctime)s] %(lineno)d %(name)s - %(levelname)s - %(massage)s",
     level = logging.INFO,
 )
+
