@@ -48,6 +48,8 @@ def convert_columns_float(df:pd.DataFrame,exclude_columns:list)->pd.DataFrame:
     except Exception as e:
         raise e
 
+# def target_column_encoding(target_feature):
+#     target_feature.replace
 
 def save_object(file_path: str, obj: object) -> None:
     try:

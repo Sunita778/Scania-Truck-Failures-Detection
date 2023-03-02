@@ -5,6 +5,7 @@ import sys, os
 from sensor.entity import config_entity
 from sensor.components.data_ingestion import DataIngestion
 from sensor.components.data_validation import DataValidation
+import json 
 
 # def test_logger_and_exception():
 #      try:
@@ -38,3 +39,17 @@ if __name__=="__main__":
           data_validation_artifact = data_validation.initiate_data_validation()
      except Exception as e:
           print(e)
+
+
+# def test_logger_and_exception():
+#      try:
+#           result = 3/0
+#           print(result)
+#      except Exception as e:
+#           raise SensorException(e, sys)
+
+# if __name__=="__main__":
+#      try:
+#           test_logger_and_exception()
+#      except Exception as e:
+#           print(e)
