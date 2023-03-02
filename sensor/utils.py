@@ -71,6 +71,7 @@ def load_object(file_path: str, ) -> object:
     except Exception as e:
         raise SensorException(e, sys) from e
 
+
 def save_numpy_array_data(file_path: str, array: np.array):
     """
     Save numpy array data to file
@@ -84,6 +85,7 @@ def save_numpy_array_data(file_path: str, array: np.array):
             np.save(file_obj, array)
     except Exception as e:
         raise SensorException(e, sys) from e
+
 
 def load_numpy_array_data(file_path: str) -> np.array:
     """
