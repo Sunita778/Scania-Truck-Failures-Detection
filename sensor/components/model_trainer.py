@@ -22,14 +22,14 @@ class ModelTrainer:
         except Exception as e:
             raise SensorException(e, sys)
 
-    def fine_tune(self):
-        try:
-            #Wite code for Grid Search CV
-            pass
+    # def fine_tune(self):
+    #     try:
+    #         #code for Grid Search CV
+    #         pass
             
 
-        except Exception as e:
-            raise SensorException(e, sys)
+    #     except Exception as e:
+    #         raise SensorException(e, sys)
 
     def train_model(self,x,y):
         try:
