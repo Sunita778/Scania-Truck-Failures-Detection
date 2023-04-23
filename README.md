@@ -27,6 +27,11 @@ learning algorithms that’s best fit for the above case.
 - *Results:* You have to build a solution that should able to predict whether a failure of a
 Scania Truck component is related to the air pressure system (APS) or not.
 
+### Project Archietecture
+![abc](https://user-images.githubusercontent.com/57321948/193536768-ae704adc-32d9-4c6c-b234-79c152f756c5.png)
+
+
+
 ### Step 1 - Install the requirements
 
 ```bash
